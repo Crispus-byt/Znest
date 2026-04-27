@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    android:background="#F5F7FA">
+
+    <!-- Sidebar -->
+    <LinearLayout
+        android:layout_width="110dp"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="#FFFFFF"
+        android:padding="10dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Dashboard"
+            android:textStyle="bold"
+            android:textColor="#2C3E50"
+            android:layout_marginBottom="20dp"/>
+
+        <TextView
+            android:id="@+id/menuJobs"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="My Jobs"
+            android:padding="8dp"
+            android:background="#E3F2FD"
+            android:textColor="#2E86DE"/>
+
+        <TextView
+            android:id="@+id/menuEarnings"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Earnings"
+            android:padding="8dp"
+            android:layout_marginTop="10dp"/>
+
+        <TextView
+            android:id="@+id/menuReputation"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Reputation"
+            android:padding="8dp"
+            android:layout_marginTop="10dp"/>
+
+        <TextView
+            android:id="@+id/menuMessages"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Messages"
+            android:padding="8dp"
+            android:layout_marginTop="10dp"/>
+    </LinearLayout>
+
+    <!-- Content Area -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <!-- Header -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="My Jobs"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:textColor="#2C3E50"
+            android:layout_marginBottom="12dp"/>
+
+        <!-- Job List -->
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/recyclerJobs"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"/>
+
+    </LinearLayout>
+
+</LinearLayout>

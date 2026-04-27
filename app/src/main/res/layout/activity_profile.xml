@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:orientation="vertical"
+    android:background="#40d2de"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".profile">
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/main_menu"
+            android:layout_width="67dp"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#40d2de"
+            android:drawableEnd="@drawable/arrow_back"
+            android:drawableTint="@color/white"
+
+            />
+
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="48dp"
+            android:layout_marginLeft="82dp"
+            android:layout_marginRight="-182dp"
+            android:text="Profile"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:textSize="23dp"
+
+            android:id="@+id/dp_page"
+
+
+            />
+
+        <Button
+            android:id="@+id/main_menu"
+            android:layout_width="119dp"
+            android:layout_height="48dp"
+            android:layout_marginLeft="225dp"
+            android:backgroundTint="#40d2de"
+            android:drawableEnd="@drawable/logout"
+            android:drawableTint="@color/white"
+            android:paddingEnd="18dp"
+            android:text="Logout"
+            android:textAlignment="textStart"
+            android:textColor="@color/white"
+
+            />
+    </LinearLayout>
+
+
+
+
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="600dp"
+        android:layout_marginTop="100dp"
+        android:layout_marginBottom="-690dp"
+        android:orientation="vertical"
+        android:background="@drawable/dp_page"
+
+        >
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="150dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:text="Your profile username"
+            android:textAlignment="textStart"
+            android:paddingStart="50dp"
+            android:background="@drawable/buttons"
+            android:padding="10dp"
+
+            android:id="@+id/profilename"
+
+
+
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:text="Your  email"
+            android:textAlignment="textStart"
+            android:paddingStart="50dp"
+            android:background="@drawable/buttons"
+            android:padding="10dp"
+
+            android:id="@+id/email"
+
+
+
+            />
+
+
+    </LinearLayout>
+
+    <ImageView
+        android:layout_width="170dp"
+        android:layout_height="170dp"
+        android:layout_marginBottom="-180dp"
+        android:background="@drawable/pic"
+        android:layout_marginLeft="120dp"
+        android:scaleType="fitXY"
+        android:layout_marginTop="10dp"
+        android:id="@+id/user_photo"
+
+
+
+        />
+
+    <Button
+        android:id="@+id/change_photo"
+        android:layout_width="38dp"
+        android:layout_height="37dp"
+        android:layout_marginLeft="240dp"
+        android:layout_marginTop="140dp"
+        android:layout_marginBottom="-100dp"
+        android:drawableEnd="@drawable/face"
+        android:paddingEnd="-3.9dp"
+        android:drawableTint="#000"
+        android:backgroundTint="#fff"
+
+
+
+
+        />
+
+
+
+
+</LinearLayout>

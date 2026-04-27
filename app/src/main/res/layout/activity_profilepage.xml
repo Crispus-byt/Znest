@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:background="#fff"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".profilepage">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        >
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            app:cardCornerRadius="26dp"
+            app:cardPreventCornerOverlap="true"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="-29dp"
+                android:background="@drawable/profilebg"
+                android:scaleType="fitXY"
+                android:requiresFadingEdge="vertical"
+                android:id="@+id/dp_profile"
+
+                />
+
+
+            <ImageView
+                android:layout_width="110dp"
+                android:layout_height="110dp"
+                android:background="@drawable/pic"
+                android:layout_marginLeft="250dp"
+                android:src="@android:drawable/ic_menu_camera"
+                android:scaleType="fitXY"
+                android:layout_marginTop="10dp"
+                android:id="@+id/user_photo"
+
+
+                />
+
+            <Button
+                android:id="@+id/main_menu"
+                android:layout_width="67dp"
+                android:layout_height="wrap_content"
+                android:backgroundTint="@color/white"
+                android:drawableEnd="@drawable/arrow_back"
+                android:drawableTint="@color/black"
+
+                />
+
+        </androidx.cardview.widget.CardView>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:padding="10dp"
+            android:textSize="13dp"
+            android:backgroundTint="#E6E5E5"
+            android:textColor="@color/black"
+            android:text="About us"
+            android:textAlignment="textStart"
+            android:paddingStart="30dp"
+            android:drawableEnd="@drawable/info"
+            android:drawableTint="@color/black"
+            android:id="@+id/aboutus"
+
+
+
+
+            />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:padding="10dp"
+            android:textSize="13dp"
+            android:backgroundTint="#E6E5E5"
+            android:textColor="@color/black"
+            android:text="Settings"
+            android:textAlignment="textStart"
+            android:paddingStart="30dp"
+            android:drawableEnd="@drawable/settings"
+            android:drawableTint="#000"
+            android:id="@+id/settings"
+
+            />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:padding="10dp"
+            android:textSize="13dp"
+            android:backgroundTint="#E6E5E5"
+            android:textColor="@color/black"
+            android:text="Notification"
+            android:textAlignment="textStart"
+            android:paddingStart="30dp"
+            android:drawableEnd="@drawable/notification"
+
+            android:drawableTint="#000"
+            android:id="@+id/notification"
+
+            />
+
+
+
+
+
+
+
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            >
+
+
+
+
+
+        </FrameLayout>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    </LinearLayout>
+
+</ScrollView>

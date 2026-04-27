@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:background="#fff"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".About">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="About info"
+        android:layout_margin="1dp"
+        android:textAlignment="center"
+        android:textSize="20dp"
+        android:textColor="@color/black"
+
+        android:padding="20dp"
+
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:layout_margin="20dp"
+        android:textColor="@color/black"
+        android:id="@+id/textview"
+
+        />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/edittext"
+        android:padding="12dp"
+        android:hint="Type something to speak"
+        android:textColorHint="#B8B6B6"
+        android:paddingStart="20dp"
+        android:paddingEnd="20dp"
+        android:cursorVisible="true"
+        android:textColor="#000"
+        android:id="@+id/inputText"
+
+        />
+
+
+    <Button
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="70dp"
+        android:layout_marginRight="260dp"
+        android:layout_marginLeft="20dp"
+        android:drawableTint="#fff"
+
+        android:paddingStart="16dp"
+        android:textSize="12dp"
+        android:drawableEnd="@android:drawable/ic_btn_speak_now"
+        android:text="Listen"
+        android:textAlignment="textStart"
+        android:textColor="@color/white"
+        android:backgroundTint="#40d2de"
+        android:id="@+id/speakbutton"
+        />
+
+</LinearLayout>

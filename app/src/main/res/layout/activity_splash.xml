@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".splashActivity">
+
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/splash"
+        />
+
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="ZNEST"
+        android:layout_marginTop="-700dp"
+        android:textColor="#000"
+        android:textSize="90dp"
+        android:layout_marginLeft="140dp"
+        android:textAlignment="gravity"
+        android:paddingTop="200dp"
+        android:paddingLeft="20dp"
+        android:textAppearance="@color/design_default_color_on_secondary"
+        android:fontFamily="sans-serif-condensed-medium"
+
+
+        />
+
+    <ImageView
+        android:layout_width="300dp"
+        android:layout_height="200dp"
+        android:layout_marginLeft="-70dp"
+        android:layout_marginTop="-200dp"
+        android:src="@drawable/profile" />
+
+    <ProgressBar
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+
+</LinearLayout>

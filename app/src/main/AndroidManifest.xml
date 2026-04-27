@@ -12,7 +12,43 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Znest">
         <activity
+            android:name=".solverdashboard"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity2"
+            android:exported="false" />
+        <activity
+            android:name=".solveaproblem"
+            android:exported="false" />
+        <activity
+            android:name=".postaproblem"
+            android:exported="false" />
+        <activity
+            android:name=".Contributions"
+            android:exported="false" />
+        <activity
+            android:name=".profile"
+            android:exported="false" />
+        <activity
+            android:name=".About"
+            android:exported="false" />
+        <activity
+            android:name=".profilepage"
+            android:exported="false" />
+        <activity
             android:name=".MainActivity"
+            android:exported="false" />
+        <activity
+            android:name=".payment"
+            android:exported="false" />
+        <activity
+            android:name=".signup"
+            android:exported="false" />
+        <activity
+            android:name=".signin"
+            android:exported="false" />
+        <activity
+            android:name=".splashActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

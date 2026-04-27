@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:background="#fff"
+    android:layout_height="match_parent"
+    tools:context=".payment">
+
+    <ImageView
+        android:layout_width="530dp"
+        android:layout_height="200dp"
+        android:layout_marginLeft="-100dp"
+        android:layout_marginBottom="-65dp"
+        android:background="@drawable/logoshape"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Payment"
+
+
+        android:textColor="#40D2DE"
+        android:textSize="30dp"
+        android:textAlignment="center"
+        android:layout_margin="20dp"/>
+
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/edittext"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"
+        android:drawableStart="@android:drawable/stat_sys_phone_call"
+        android:layout_marginRight="20dp"
+        android:drawableTint="#afdada"
+        android:textColorHint="#AFAAAA"
+        android:paddingEnd="15dp"
+        android:paddingStart="15dp"
+        android:paddingTop="20sp"
+        android:hint="Phone"
+        android:id="@+id/phone"
+        android:textColor="@color/black"
+
+        />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/edittext"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:textColorHint="#AFAAAA"
+        android:paddingEnd="15dp"
+        android:layout_marginTop="20sp"
+        android:paddingStart="15dp"
+        android:paddingTop="20sp"
+        android:hint="Amount"
+        android:id="@+id/amount"
+        android:textColor="@color/black"
+
+        />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30sp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
+        android:textColor="@color/white"
+        android:id="@+id/payment"
+        android:text="payment"
+        android:backgroundTint="#42C3D3"
+        />
+
+
+
+
+
+</LinearLayout>
