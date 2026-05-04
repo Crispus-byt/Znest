@@ -5,7 +5,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/main"
     android:orientation="vertical"
-    android:background="#40d2de"
+    android:background="#396D28"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".profile">
@@ -21,7 +21,7 @@
             android:id="@+id/main_menu"
             android:layout_width="67dp"
             android:layout_height="wrap_content"
-            android:backgroundTint="#40d2de"
+            android:backgroundTint="#396D28"
             android:drawableEnd="@drawable/arrow_back"
             android:drawableTint="@color/white"
 
@@ -47,7 +47,7 @@
             android:layout_width="119dp"
             android:layout_height="48dp"
             android:layout_marginLeft="225dp"
-            android:backgroundTint="#40d2de"
+            android:backgroundTint="#396D28"
             android:drawableEnd="@drawable/logout"
             android:drawableTint="@color/white"
             android:paddingEnd="18dp"

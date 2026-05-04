@@ -5,6 +5,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/main"
     android:orientation="vertical"
+    android:background="@color/white"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".signin">
@@ -65,7 +66,7 @@
         android:text="Sign In"
 
         android:textAlignment="center"
-        android:textColor="#40D2DE"
+        android:textColor="#298932"
         android:textSize="30dp" />
 
     <EditText
@@ -111,7 +112,7 @@
     <Button
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:backgroundTint="#42C3D3"
+        android:backgroundTint="#298932"
         android:text="Signin"
         android:layout_marginTop="60dp"
         android:textColor="@color/white"
@@ -144,7 +145,7 @@
             android:text="Sign Up"
             android:id="@+id/signup_link"
             android:textStyle="bold"
-            android:textColor="#2EB9E4"
+            android:textColor="#298932"
             android:layout_marginLeft="-199dp"
             />
 

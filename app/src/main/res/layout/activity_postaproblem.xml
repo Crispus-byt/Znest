@@ -122,7 +122,7 @@
             android:layout_height="wrap_content"
             android:text="Post Problem"
             android:layout_marginTop="20dp"
-            android:backgroundTint="#2E86DE"
+            android:backgroundTint="#298932"
             android:textColor="#FFFFFF"/>
 
     </LinearLayout>

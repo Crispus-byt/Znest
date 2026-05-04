@@ -24,7 +24,7 @@
         android:text="Payment"
 
 
-        android:textColor="#40D2DE"
+        android:textColor="#298932"
         android:textSize="30dp"
         android:textAlignment="center"
         android:layout_margin="20dp"/>
@@ -38,7 +38,7 @@
         android:layout_marginTop="20dp"
         android:drawableStart="@android:drawable/stat_sys_phone_call"
         android:layout_marginRight="20dp"
-        android:drawableTint="#afdada"
+        android:drawableTint="#298932"
         android:textColorHint="#AFAAAA"
         android:paddingEnd="15dp"
         android:paddingStart="15dp"
@@ -75,7 +75,7 @@
         android:textColor="@color/white"
         android:id="@+id/payment"
         android:text="payment"
-        android:backgroundTint="#42C3D3"
+        android:backgroundTint="#298932"
         />
 
 

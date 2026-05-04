@@ -27,7 +27,7 @@
             android:layout_height="wrap_content"
             android:text="My Jobs"
             android:padding="8dp"
-            android:background="#E3F2FD"
+            android:background="#E3F2F"
             android:textColor="#2E86DE"/>
 
         <TextView
